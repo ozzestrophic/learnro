@@ -11,18 +11,37 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
+  <!-- CSS for custom select menu -->
+  <link rel="stylesheet" type="text/css" href="dist/dd.css" />
+
 </head>
 <body>
-    <div class="flex justify-between text-lrnro-blue bg-lrnro-lightRed font-Noto font-light">
-        <h1 class="text-3xl font-bold underline text-center">
-            Hello world!
-          </h1>
-          <div class="flex flex-row gap-4">
-            <div><a href="">link</a></div>
-            <div><a href="">link</a></div>
-            <div><a href="">link</a></div>
-          </div>
+    <div class="font-PlusJakartaSans">
+      <div class="flex justify-between items-center py-6 px-16">
+          <img src="src/images/logo.png" alt="Learnro logo" class="w-40 h-fit">
+            <div class="flex gap-8 items-center">
+              <select name="" is="ms-dropdown">
+                <option data-image="./src/images/icons/en.png" value="en" selected>En</option>
+                <option data-image="./src/images/icons/en.png" value="sp">Sp</option>
+                <option data-image="./src/images/icons/en.png" value="gr">Gr</option>
+            </select>
+              <div class="flex flex-row gap-8 font-semibold">
+                <div><a href="">Home</a></div>
+                <div><a href="">Learn</a></div>
+                <div><a href="">Culture</a></div>
+                <div><a href="">About us</a></div>
+              </div>
+              <button class="bg-lrnro-blue text-white px-8 py-3 rounded-3xl font-semibold">Log In</button>
+            </div>
+      </div>
     </div>
+
+
+
+
+
+    <!-- JS for custom select menu -->
+    <script src="dist/dd.min.js"></script>
 
 </body>
 </html>
