@@ -1916,6 +1916,14 @@ video {
   vertical-align: super;
 }
 
+.font-PlusJakartaSans {
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+
+.font-Noto {
+  font-family: Noto Serif, serif;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -1923,6 +1931,14 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .uppercase {

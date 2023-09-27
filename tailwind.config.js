@@ -49,10 +49,11 @@ module.exports = {
       'lrnro-lightYellow': '#FFFAE5',
       'lrnro-lightRed': '#FFD8DC',
       
-  
+    },
 
-  
-    
+    fontFamily: {
+      Noto: ['Noto Serif', 'serif'],
+      PlusJakartaSans: ['Plus Jakarta Sans', 'sans-serif'],
     },
 
 
