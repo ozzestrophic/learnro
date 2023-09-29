@@ -6,11 +6,15 @@
 @layer components {
 
 .card {
-    @apply flex gap-4 pt-8 md:flex-col md:rounded-lg md:shadow-md md:p-6 md:items-center
+    @apply flex gap-4 pt-20 md:flex-col md:rounded-lg md:shadow-xl md:p-6 items-center md:bg-gray-100 md:max-w-[200px] md:border-solid md:border-[1px] md:border-gray-200 z-40
 }
 
 .card h4 {
     @apply font-bold text-sm
+}
+
+.card > img {
+    @apply max-w-[200px] 
 }
 
 }
