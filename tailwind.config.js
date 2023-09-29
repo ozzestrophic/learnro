@@ -4,13 +4,12 @@ module.exports = {
   theme: {
     
 
-    fontFamily: {
-      Noto: ['Noto Serif', 'serif'],
-      PlusJakartaSans: ['Plus Jakarta Sans', 'sans-serif'],
-    },
-
 
     extend: {
+      fontFamily: {
+        Noto: ['Noto Serif', 'serif'],
+        PlusJakartaSans: ['Plus Jakarta Sans', 'sans-serif'],
+      },
       colors: {
         'lrnro-blue': {
           '50': '#e4f7ff',
